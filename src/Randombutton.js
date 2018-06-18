@@ -3,7 +3,11 @@ import React from "react";
 export const Randombutton = props => {
   return (
     <div>
-      {<button onClick={() => props.handleClick()}>get lucky winner!</button>}
+      {
+        <button id="randomButton" onClick={props.handleClick}>
+          Get lucky winner!
+        </button>
+      }
     </div>
   );
 };
